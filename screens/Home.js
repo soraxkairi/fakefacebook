@@ -1,16 +1,27 @@
 import react from "react";
-import { Text } from "react-native";
 import styled from "styled-components/native";
 
+import ToolBar from "../components/ToolBar";
+import MainSeparator from "../components/MainSeparator";
+import Users from "../components/Users";
+import Story from "../components/Story";
+
+
+
+
 const View = styled.View`
-align-items:center;
-height: 500px;
+    flex: 1;
 `
 
 const Home = () => {
     return (
         <View>
-            <Text>Home Screen</Text>
+            <ToolBar/>
+            <MainSeparator/>
+            <Users/>
+            <MainSeparator/>
+            <Story />
+            <MainSeparator/>
         </View>
     )
 }

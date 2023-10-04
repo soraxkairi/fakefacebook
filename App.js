@@ -1,6 +1,6 @@
 import { StatusBar,ScrollView } from 'react-native';
 import React from 'react';
-import 'react-native-gesture-handler'
+import 'react-native-gesture-handler';
 import Header from './components/Header';
 import Home from './screens/Home';
 import Friends from './screens/Friends';
