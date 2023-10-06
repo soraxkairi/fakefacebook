@@ -1,7 +1,3 @@
-import React from "react";
-import styled from "styled-components/native";
-import { MaterialCommunityIcons } from "@expo/vector-icons";
-import Avatar from "./Avatar";
 
 
 
@@ -83,3 +79,11 @@ const ToolBar = () => {
 
 
 export default ToolBar
+
+
+import React from "react";
+import { ScrollView } from "react-native";
+import styled from "styled-components/native";
+import {MaterialCommunityIcons} from '@expo/vector-icons';
+import fakeStories from "../data/fakeStories";
+import Avatar from "./Avatar";
